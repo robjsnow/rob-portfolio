@@ -1,0 +1,118 @@
+/* General header styling */
+.header {
+    font-family: SpotMonkey-zLO0, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00ABE1; /* Bright blue background */
+    color: #161F6D;
+    padding: 1rem;
+    text-align: center;
+    position: relative; /* Needed for absolute positioning of elements like snowballs */
+    overflow: hidden; /* For snowball effect */
+}
+
+/* Styling for the name container and text */
+.name-container {
+    display: flex;
+    align-items: center;
+}
+
+.name-container p {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.name-container p span {
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+/* Wavy animation on hover */
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-5px);
+    }
+    75% {
+        transform: translateY(5px);
+    }
+}
+
+.name-container:hover span {
+    animation: wave 0.5s ease-in-out infinite alternate;
+}
+
+/* Navigation link styling */
+.header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+.header nav ul li {
+    margin: 0 10px;
+}
+
+.header nav ul li a {
+    color: #00ABE1;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-shadow:
+    -1px -1px 0 #161F6D,  
+    1px -1px 0 #161F6D,
+    -1px 1px 0 #161F6D,
+    1px 1px 0 #161F6D; /* Simulated border color */
+}
+
+.header nav ul li a:active {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-shadow:
+    -1px -1px 0 #161F6D,  
+    1px -1px 0 #161F6D,
+    -1px 1px 0 #161F6D,
+    1px 1px 0 #161F6D; /* Simulated border color */
+}
+
+.header nav ul li a:hover {
+    color: blue;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-shadow:
+    -1px -1px 0 #161F6D,  
+    1px -1px 0 #161F6D,
+    -1px 1px 0 #161F6D,
+    1px 1px 0 #161F6D; /* Simulated border color */
+}
+
+/* Snowball effect */
+.snowball {
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.8;
+    width: 20px;
+    height: 20px;
+    left: 10%;
+    animation: snowball-fall 3s linear infinite;
+}
+
+.logo {
+        max-width: 55px; /* Adjust this value as needed */
+        height: auto;
+        display: block; /* Optional: makes the image a block-level element */
+        margin: 0 auto; /* Optional: centers the image in its container */
+}
+
