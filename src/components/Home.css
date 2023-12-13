@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.intro-section {
+    background-color: #f8f9fa; /* Light background color for the section */
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Center the card horizontally */
+    align-items: center; /* Center the card vertically */
+    min-height: 30vh; /* Make the section take at least the height of the viewport */
+    background-image: url('../../public/image3.jpeg'); /* Replace with your image */
+    word-spacing: 2px;
+    
+
+  }
+  
+  .intro-card {
+    background-color: #fff; /* White background for the card */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Adding some shadow for depth */
+    padding: 40px;
+    max-width: 600px; /* Maximum width of the card */
+    margin: 20px;
+    text-align: center; /* Center the text inside the card */
+  }
+  
+  .intro-card h1 {
+    color: #333; /* Dark text for the heading */
+    margin-bottom: 15px;
+  }
+  
+  .intro-card p {
+    color: #555; /* Slightly lighter text for the paragraph */
+    line-height: 1.6; /* Better readability */
+ 
+  }
+  
+  .intro-card a {
+    color: #007bff; /* A standard link color */
+    text-decoration: none;
+  }
+  
+  .intro-card a:hover {
+    text-decoration: underline;
+  }
+
+
+  
+.project-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #00ABE1; /* Light background color for the section */
+    color: white;
+  }
+  
+    
+.project2-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: black; /* Light background color for the section */
+  color: white;
+}
+
+  .project-image img {
+    max-width: 65%;
+    height: auto;
+    border-radius: 8px; /* Optional: to give the image rounded corners */
+  }
+  
+  .project-description {
+    padding: 0 20px;
+    max-width: 500px; /* Adjust as needed */
+ 
+  }
+  
+  .project-description h2 {
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .project-description p {
+    color: white;
+    line-height: 1.6;
+  }
+  
+  .github-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .github-link:hover {
+    background-color: #0056b3;
+  }
+
+  
+.parallax-section {
+    position: relative;
+    height: 400px; /* Adjust the height as needed */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../../public/placeholder.jpg'); /* Replace with your image */
+  }
+  
+  .parallax-section .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5); /* Transparent black tint */
+    color: #fff; /* White text color */
+  }
+  
+  .parallax-section h2, .parallax-section p {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .intro-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .social-icon {
+    font-size: 44px; /* Adjust the size of the icons */
+    color: #333; /* Adjust the color of the icons */
+    margin-bottom: 10px; /* Space between icons */
+    padding-left: 30px; /* Space between icon and text */
+  }
+
+  .greeting {
+
+  }
+  
+  .profile-picture {
+    max-width: 100px;
+    border-radius: 50%;
+  }
+  
