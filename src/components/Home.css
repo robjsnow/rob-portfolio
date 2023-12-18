@@ -94,6 +94,7 @@
     border-radius: 5px;
     text-decoration: none;
     margin-top: 10px;
+    margin-bottom: 20px;
   }
   
   .github-link:hover {
@@ -160,4 +161,15 @@
     max-width: 100px;
     border-radius: 50%;
   }
-  
+
+
+  @media (max-width: 768px) {
+    .project-section, .project2-section {
+      flex-direction: column;
+      padding-top: 18px;
+    }
+    .project-image img {
+      max-width: 100%; /* Adjust to make the image take full width */
+      margin-bottom: 20px; /* Add some space below the image */
+    }
+  }

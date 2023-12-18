@@ -3,15 +3,15 @@ function Section2() {
         <div className="project-section">
           <div className="project-image">
             {/* Replace with the actual image source */}
-            <img src="project1.png" alt="Project Screenshot" />
+            <img src="project0.png" alt="Project Screenshot" />
           </div>
           <div className="project-description">
-            <h2>Project Title</h2>
+            <h2>Quiz App</h2>
             <p>
-              Brief description of the project. Highlight key features, technologies used, 
-              and what problems it solves.
+              This project is a mobile app on the android store that allows users to take quizzes and share them.
+              I programmed it in Java using Android Studio, and it demonstrates my proficiency in mobile application development.
             </p>
-            <a href="https://github.com/your_github_account/your_project_repository" className="github-link">
+            <a href="https://github.com/robjsnow/avr/" className="github-link">
               View on GitHub
             </a>
           </div>

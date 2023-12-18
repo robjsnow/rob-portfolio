@@ -21,10 +21,10 @@ function Section1() {
             </div>
             <p>
             I'm fervently dedicated to software engineering - it's my passion and expertise.<br/>
-            Below, you'll find a curated showcase of projects that I've brought to fruition.
+            Below, you'll find a showcase of projects that I've completed for demonstration.
           </p>
           <p>
-            If you're keen on collaborating or have any questions, please don't hesitate to connect with me.
+            If you're interested in collaborating or have any questions, please don't hesitate to connect with me.
             You can email me at <a href="mailto:robjsnow@gmail.com">robjsnow@gmail.com</a> or reach out through
             various social media platforms. And if you're interested in hiring me, I encourage you to visit
             the resume section to learn more about my professional journey.
