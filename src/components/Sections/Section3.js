@@ -4,9 +4,7 @@ function Section3() {
                 <div className="project-description">
                 <h2>Aliens vs Robots</h2>
             <p>
-              Aliens vs Robots is a game that I programmed in React for the enjoyment of my five year old son to play.
-              I colloborated with my wife who gathered the assets and designed the game, and my son who playtested it.
-              It demonstrates my proficiency in frontend web development: React, HTML, CSS, and JavaScript/JSX.
+            Aliens vs Robots is a game I programmed in React, created especially for my five-year-old son to enjoy. In this project, my wife also played a significant role, and my son contributed by playtesting it. This game highlights my expertise in frontend web development, specifically in React and JavaScript/JSX, with an emphasis on game development.
             </p>
             <a href="https://github.com/robjsnow/avr/" className="github-link">View on GitHub
             </a>

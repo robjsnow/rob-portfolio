@@ -20,8 +20,10 @@ function Section1() {
               </div>
             </div>
             <p>
-            I'm fervently dedicated to software engineering - it's my passion and expertise.<br/>
-            Below, you'll find a showcase of projects that I've completed for demonstration.
+            I have a strong dedication to software engineering, which is not only my passion but also my expertise.<br/>
+            On display below are projects that I've brought to fruition, serving as examples of my work.<br/>
+            These projects span across four key areas of interest that I've explored:<br/>
+            Web Development, App Development, Game Development, and Artificial Intelligence.
           </p>
           <p>
             If you're interested in collaborating or have any questions, please don't hesitate to connect with me.
