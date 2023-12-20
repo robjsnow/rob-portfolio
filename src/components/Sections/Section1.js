@@ -8,10 +8,10 @@ function Section1() {
             <div className="intro-top">
               <img src="myself.jpg" alt="Rob Snow" className="profile-picture" />
               <div className="social-links">
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/robjsnow" target="_blank" rel="noopener noreferrer">
                   <FaGithub className="social-icon" />
                 </a>
-                <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="https://linkedin.com/in/robjsnow" target="_blank" rel="noopener noreferrer">
                   <FaLinkedin className="social-icon" />
                 </a>
               </div>

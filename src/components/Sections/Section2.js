@@ -3,7 +3,7 @@ function Section2() {
         <div className="project-section">
           <div className="project-image">
             {/* Replace with the actual image source */}
-            <img src="news.jpg" alt="Project Screenshot" />
+            <img src="newsproject.png" alt="Project Screenshot" />
           </div>
           <div className="project-description">
             <h2>Newsfusion Website</h2>
@@ -13,6 +13,7 @@ function Section2() {
             <a href="https://newsfusion-3a88334147f8.herokuapp.com/" className="github-link">
               Live Demo
             </a>
+            <a href="mailto:robjsnow@gmail.com" className="github-link">Request Source Code</a>
           </div>
         </div>
       );
