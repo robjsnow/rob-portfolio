@@ -3,7 +3,7 @@ function Section2() {
         <div className="project-section">
           <div className="project-image">
             {/* Replace with the actual image source */}
-            <img src="project0.png" alt="Project Screenshot" />
+            <img src="news.jpg" alt="Project Screenshot" />
           </div>
           <div className="project-description">
             <h2>Newsfusion Website</h2>
