@@ -19,11 +19,10 @@ function Section1() {
                 <h2>Hello! 👋<br/> I'm Rob Snow.</h2>
               </div>
             </div>
-            <p>
-            I have a strong dedication to software engineering, which is not only my passion but also my expertise.
-            On display below are projects that I've brought to fruition, serving as examples of my work.
-            These projects span across four key areas of interest that I've explored:
-            Web Development, App Development, Game Development, and Artificial Intelligence.
+            <p>I am a dedicated software engineering enthusiast, currently pursuing my Bachelor's in Computer Science.
+              My passion and expertise in this field are evident in the projects I've developed, which are showcased below.
+              These projects represent a range of skills and interests I've cultivated, spanning Web Development, App Development, Game Development, and Artificial Intelligence.
+              Each project is a testament to my commitment to exploring diverse areas of technology and software development.
           </p>
           <p>
             If you're interested in collaborating or have any questions, please don't hesitate to connect with me.
