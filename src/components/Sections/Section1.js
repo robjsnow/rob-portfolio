@@ -20,9 +20,9 @@ function Section1() {
               </div>
             </div>
             <p>
-            I have a strong dedication to software engineering, which is not only my passion but also my expertise.<br/>
-            On display below are projects that I've brought to fruition, serving as examples of my work.<br/>
-            These projects span across four key areas of interest that I've explored:<br/>
+            I have a strong dedication to software engineering, which is not only my passion but also my expertise.
+            On display below are projects that I've brought to fruition, serving as examples of my work.
+            These projects span across four key areas of interest that I've explored:
             Web Development, App Development, Game Development, and Artificial Intelligence.
           </p>
           <p>
