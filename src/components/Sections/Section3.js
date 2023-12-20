@@ -1,6 +1,12 @@
+import useOnScreen from '../../hooks/useOnScreen';
+import React, { useRef } from 'react';
+
+
 function Section3() {
+  const ref = useRef();
+  const isVisible = useOnScreen(ref);
   return (
-      <div className="project2-section">
+    <div ref={ref} className={`project2-section ${isVisible ? 'fade-in-section' : ''}`}>
                 <div className="project-description">
                 <h2>Aliens vs Robots</h2>
             <p>

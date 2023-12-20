@@ -4,11 +4,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #00ABE1; 
+    background-color: transparent;
+    z-index: 1;
     color: #161F6D;
     padding: 1rem;
     text-align: center;
-    position: relative; 
+    position: absolute;
     overflow: hidden;
 }
 
@@ -47,7 +48,7 @@
 }
 
 .header nav ul li a:hover {
-    color: blue;
+    color: gold;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: bolder;

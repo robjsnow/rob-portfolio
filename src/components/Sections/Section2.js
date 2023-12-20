@@ -1,9 +1,14 @@
+import useOnScreen from '../../hooks/useOnScreen';
+import React, { useRef } from 'react';
+
 function Section2() {
+  const ref = useRef();
+  const isVisible = useOnScreen(ref);
     return (
-        <div className="project-section">
+      <div ref={ref} className={`project-section ${isVisible ? 'fade-in-section' : ''}`}>
           <div className="project-image">
             {/* Replace with the actual image source */}
-            <img src="newsproject.png" alt="Project Screenshot" />
+            <img src="news1.jpeg" alt="Project Screenshot" />
           </div>
           <div className="project-description">
             <h2>Newsfusion Website</h2>

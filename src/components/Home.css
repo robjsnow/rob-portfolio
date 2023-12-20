@@ -1,171 +1,219 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 .intro-section {
-    background-color: #f8f9fa; /* Light background color for the section */
-    padding: 20px;
-    display: flex;
-    justify-content: center; /* Center the card horizontally */
-    align-items: center; /* Center the card vertically */
-    min-height: 30vh; /* Make the section take at least the height of the viewport */
-    background-image: url('../../public/image3.jpeg'); /* Replace with your image */
-    word-spacing: 2px;
-    
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+  word-spacing: 2px;
+  background-image: url('../../public/touch.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-  }
-  
-  .intro-card {
-    background-color: #fff; /* White background for the card */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Adding some shadow for depth */
-    padding: 40px;
-    max-width: 600px; /* Maximum width of the card */
-    margin: 20px;
-    text-align: center; /* Center the text inside the card */
-  }
-  
-  .intro-card h1 {
-    color: #333; /* Dark text for the heading */
-    margin-bottom: 15px;
-  }
-  
-  .intro-card p {
-    color: #555; /* Slightly lighter text for the paragraph */
-    line-height: 1.6; /* Better readability */
- 
-  }
-  
-  .intro-card a {
-    color: #007bff; /* A standard link color */
-    text-decoration: none;
-  }
-  
-  .intro-card a:hover {
-    text-decoration: underline;
-  }
+.intro-card {
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+  padding: 40px;
+  max-width: 600px;
+  margin: 20px;
+  text-align: center;
+  color: white;
+}
 
+.intro-card h1 {
+  color: #333;
+  margin-bottom: 15px;
+}
 
-  
-.project-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    background-color: #00ABE1; /* Light background color for the section */
-    color: white;
-  }
-  
-    
+.intro-card p {
+  color: white;
+  line-height: 1.6;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.intro-card a {
+  color: #00ABE1;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  text-shadow: -1px -1px 0 #161F6D, 1px -1px 0 #161F6D, -1px 1px 0 #161F6D, 1px 1px 0 #161F6D;
+  transition: font-size 0.5s ease;
+}
+
+.intro-card a:hover {
+  color: gold;
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-weight: bolder;
+  letter-spacing: 3px;
+}
+
+.project-section,
 .project2-section {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background-color: black; /* Light background color for the section */
+  word-spacing: 2px;
+}
+
+.project-section {
+  background-color: white;
+  color: black;
+}
+
+.project2-section {
+  background-color: black;
   color: white;
 }
 
-  .project-image img {
-    height: auto;
-    border-radius: 8px; /* Optional: to give the image rounded corners */
-  }
-  
-  .project-description {
-    padding: 0 20px;
-    max-width: 500px; /* Adjust as needed */
- 
-  }
-  
-  .project-description h2 {
-    color: white;
-    margin-bottom: 10px;
-  }
-  
-  .project-description p {
-    color: white;
-    line-height: 1.6;
-  }
-  
-  .github-link {
-    display: inline-block;
-    background-color: #007bff;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-  }
-  
-  .github-link:hover {
-    background-color: #0056b3;
-  }
+.project-image img {
+  height: auto;
+  border-radius: 8px;
+}
 
-  
+.project-description {
+  padding: 0 20px;
+  max-width: 500px;
+}
+
+.github-link {
+  font-family: SpotMonkey-zLO0, sans-serif;
+  font-size: 1.5rem;
+  color: #00ABE1;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 10px 20px 20px;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  text-shadow: -1px -1px 0 #161F6D, 1px -1px 0 #161F6D, -1px 1px 0 #161F6D, 1px 1px 0 #161F6D;
+}
+
+.github-link:hover {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  color: gold;
+}
+
 .parallax-section {
-    position: relative;
-    height: 400px; /* Adjust the height as needed */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('../../public/placeholder.jpg'); /* Replace with your image */
-  }
-  
-  .parallax-section .content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
+  position: relative;
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../../public/backgroundmoon.jpg');
+}
+
+.parallax-section .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.parallax-section h2, .parallax-section p {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.intro-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icon {
+  font-size: 3rem;
+  color: #00ABE1;
+}
+
+.social-icon:hover {
+  color: gold;
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: bolder;
+  letter-spacing: 3px;
+}
+
+.profile-picture {
+  max-width: 250px;
+}
+
+@media (max-width: 768px) {
+  .project-section, .project2-section {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: rgba(0, 0, 0, 0.5); /* Transparent black tint */
-    color: #fff; /* White text color */
+    padding-top: 18px;
+    min-height: 30vh;
   }
-  
-  .parallax-section h2, .parallax-section p {
-    margin: 0;
-    padding: 10px;
-    text-align: center;
+  .project-image img {
+    max-width: 100%;
+    margin-bottom: 20px;
   }
+}
 
-  .intro-top {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 15px;
-  }
-  
-  .social-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 20px;
-  }
-  
-  .social-icon {
-    font-size: 44px; /* Adjust the size of the icons */
-    color: #333; /* Adjust the color of the icons */
-    margin-bottom: 10px; /* Space between icons */
-    padding-left: 30px; /* Space between icon and text */
-  }
+.intro-section, .project-section, .project2-section, .parallax-section {
+  min-height: 100vh;
+}
 
-  .profile-picture {
-    max-width: 100px;
-    border-radius: 50%;
-  }
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 
+.fade-in-section {
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 3.5s;
+  animation-fill-mode: forwards;
+}
 
-  @media (max-width: 768px) {
-    .project-section, .project2-section {
-      flex-direction: column;
-      padding-top: 18px;
-    }
-    .project-image img {
-      max-width: 100%; /* Adjust to make the image take full width */
-      margin-bottom: 20px; /* Add some space below the image */
-    }
+.scroll-to-top-btn {
+  position: fixed;
+  z-index: 1;
+  bottom: 10px;
+  right: 10px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+.scroll-to-top-btn img {
+  width: 100px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .scroll-to-top-btn img {
+    width: 60px;
   }
+}
+
+@media (max-width: 480px) {
+  .scroll-to-top-btn img {
+    width: 50px;
+  }
+}
